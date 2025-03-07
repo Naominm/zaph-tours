@@ -1,0 +1,29 @@
+:root {
+  --color-dark-black: #131010;
+  --color-dark-brown: #543a14;
+  --color-dark-beige: #f0bb78;
+  --color-light-beige: #fff0dc;
+  --primary-font: "Nunito", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
