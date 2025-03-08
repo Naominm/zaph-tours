@@ -3,6 +3,7 @@
   --color-dark-brown: #543a14;
   --color-dark-beige: #f0bb78;
   --color-light-beige: #fff0dc;
+  --color-white: #ffff;
   --primary-font: "Nunito", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
@@ -18,12 +19,14 @@ html {
 }
 
 body {
+  font-family: var(--primary-font);
   font-size: 1.6rem;
 }
 ul,
 ol {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
