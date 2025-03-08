@@ -17,8 +17,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  color: var(--color-white);
-  background-color: var(--color-dark-brown);
+  /* color: var(--color-white);
+  background-color: var(--color-dark-brown); */
 }
 .header-contacts svg {
   color: var(--color-light-beige);
@@ -34,12 +34,15 @@
   color: var(--color-dark-beige);
 }
 .header-navigation {
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: 2rem;
   flex-wrap: wrap;
-  /* background-color: aqua; */
+  box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.75);
+  /* background-color: aqua;
+} */
 }
 @media screen and (max-width: 50rem) {
   .header-nav-elements {
@@ -50,6 +53,7 @@
   display: flex;
 }
 .navigation-links {
+    
   display: flex;
   gap: 5rem;
 }
