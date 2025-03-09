@@ -8,11 +8,12 @@ function HeroSection(){
              <div className="main-content-container">
             <div className="overlay"> </div>
         <video src={BgVideo} autoPlay loop muted/>
+        </div>
         <div className="content">
             <h2>Best safaris and adventures</h2>
     <p>Karibu kenya</p>
             </div>
-            </div>
+            
         </div>
     )
 }
