@@ -1,6 +1,7 @@
 import HeroSection from "./Hero";
 import AboutContainerElement from "./About";
 import FeaturedDestination from "./FeaturedDestination";
+import NewsLetter from "../../components/NewsLetter/NewsLetter";
 
 function Home(){
     return(
@@ -8,6 +9,7 @@ function Home(){
         <HeroSection/>
         <AboutContainerElement/>
         <FeaturedDestination/>
+        <NewsLetter/>
         </>
     )
 }
