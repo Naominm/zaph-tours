@@ -1,9 +1,5 @@
-import { FaHeart,FaCircle } from "react-icons/fa";
-
-import FeaturedImage1 from "../../assets/mt-kenya.png";
-import FeaturedImage2 from "../../assets/lake-nakuru.jpg";
-import FeaturedImage3 from "../../assets/coastal-kenya.jpg";
-import FeaturedImage4 from "../../assets/Nairobi-national-park.jpg";
+import { FaHeart} from "react-icons/fa";
+import featuredDestinations from "../../data/FeaturedDestinationData"
 
 
 
@@ -14,41 +10,33 @@ function FeaturedDestination(){
             <h3>Featured Destination</h3>
         <div className="featured-destination-container">
             <div className="scroll-wrapper">
-       <FeaturedDestinationElement Image={FeaturedImage1} Text="Mt Kenya"Icon={<FaHeart />}/>
-       <FeaturedDestinationElement Image={FeaturedImage2} Text="Lake Nakuru"Icon={<FaHeart />}/>
-       <FeaturedDestinationElement Image={FeaturedImage3} Text="Coastal Kenya"Icon={<FaHeart />}/>
-       <FeaturedDestinationElement Image={FeaturedImage4} Text="Nairobi N Park"Icon={<FaHeart />}/>
-       
-       <FeaturedDestinationElement Image={FeaturedImage1} Text="Mt Kenya"Icon={<FaHeart />}/>
-       <FeaturedDestinationElement Image={FeaturedImage2} Text="Lake Nakuru"Icon={<FaHeart />}/>
-       <FeaturedDestinationElement Image={FeaturedImage3} Text="Coastal Kenya"Icon={<FaHeart />}/>
-       <FeaturedDestinationElement Image={FeaturedImage4} Text="Nairobi N Park"Icon={<FaHeart />}/>
+            {featuredDestinations.map((destination, index) => (
+                        <FeaturedDestinationElement 
+                            key={index}
+                            Image={destination.image} 
+                            Text={destination.name}
+                            Icon={<FaHeart />}
+                            Description={destination.description}
+                            Price={`Ksh${destination.individualCost}`}
+                        />
+                    ))}
        </div>
         </div>
-        {/* <div className="feature-active-class">
-
-      <FeatureActiveElement FeatureActiveCircleIcon={<FaCircle/>}/>
-      <FeatureActiveElement FeatureActiveCircleIcon={<FaCircle/>}/>
-      <FeatureActiveElement FeatureActiveCircleIcon={<FaCircle/>}/>
-      <FeatureActiveElement FeatureActiveCircleIcon={<FaCircle/>}/> 
-        </div> */}
         </div>
     )
 }
 
-function FeaturedDestinationElement({Image,Text, Icon}){
+function FeaturedDestinationElement({Image,Text, Icon, Description,Price}){
     return(
         <div className="fdElements">
             
         <div className="featured-destinations">
-           <div className="heading">
-            
-           </div>
+          
             <div className="featuredContent">
          
          <div className="image-wrapper-container-featured">
          <div className="overlay-f"></div>
-            <img src={Image} alt="major parks in kenya" />
+            <img src={Image} alt="major " />
             <div className="icon-container">
          {Icon}
          </div>
@@ -60,16 +48,16 @@ function FeaturedDestinationElement({Image,Text, Icon}){
             <p>{Text}</p>
          </div>
         </div>
+        <div className="description-per-destination">
+            <p>{Description}</p>
+        </div>
+        <div className="price-per-destination">
+            <p>{Price}</p>
+        </div>
         </div>
     )
 }
 
-function FeatureActiveElement({FeatureActiveCircleIcon}){
-    return(
-     <div className="feature-active">
-{FeatureActiveCircleIcon}
-                </div>
-    )
-}
+
 
 export default FeaturedDestination;

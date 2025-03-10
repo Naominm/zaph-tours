@@ -18,7 +18,7 @@
 }
 .image-wrapper-container{
     height: 40rem;
-    width: 150rem;
+    width: 50%;
     border-radius: 5rem;
 }
 @media screen and (max-width:50rem) {
@@ -34,7 +34,8 @@
     object-fit: cover;
 }
 .about-text-section{
-    width: 150rem;
+    width: 50%;
+    padding-inline:2rem;
   
 }
 @media screen and (max-width:50rem) {
@@ -45,6 +46,6 @@
 }
 .about-text-section p{
     font-size: 1.5rem;
-    line-height: 5rem;
+    line-height:4rem;
     font-weight: 400;
 }

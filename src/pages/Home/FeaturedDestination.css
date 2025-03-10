@@ -1,40 +1,29 @@
 .featured-destination-container{
     min-height: 50vh;
     margin-top: 3rem;
-    padding: 2rem;
-    display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    overflow: hidden;
-    gap: 2rem;
+
    
 }
 .scroll-wrapper {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
     width: 100%; 
     cursor: pointer;
-    animation: scroll-left 10s linear infinite;
-}
-
-@keyframes scroll-left {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%); 
-    }
 }
 
 
-.fdElements {
+ 
+ .fdElements {
     min-width: 25%; 
-}
+} 
 @media screen and(max-width:50rem) {
     .fdElements{
-        min-width: 50%;
-    }
-    .scroll-wrapper {
-        width: 150%; 
+        min-width: 100%;
     }
 }
 .image-wrapper-container-featured{
@@ -58,7 +47,7 @@
 .content-featured{
     position: absolute;
     margin-top: -20rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
     margin-right: -10rem;
     color: var(--color-white);
     height: 100%;
@@ -103,4 +92,21 @@ border-bottom: 2.5px solid white;
 }
 .feature-active-class :active{
     color: var(--color-dark-beige);
+}
+.description-per-destination{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 25rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+.price-per-destination{
+    font-weight: 700;
+}
+@media screen and(max-width:50rem) {
+    .description-per-destination{
+        line-height: 1rem;
+    }
 }
