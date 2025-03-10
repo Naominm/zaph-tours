@@ -28,19 +28,19 @@
   color: var(--color-dark-black);
   font-size: 1.5rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .navigation-links :active {
   color: var(--color-dark-beige);
 }
 .header-navigation {
- 
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-inline: 2rem;
   flex-wrap: wrap;
-  box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.75);
   /* background-color: aqua;
 } */
 }
@@ -53,7 +53,6 @@
   display: flex;
 }
 .navigation-links {
-    
   display: flex;
   gap: 5rem;
 }

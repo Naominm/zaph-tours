@@ -37,28 +37,24 @@ function HeaderNavigation() {
       <div className="navigation-links">
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
-          m
           to="/"
         >
           Home
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
-          m
-          to="/"
+          to="/Destination"
         >
           Destination
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
-          m
           to="/"
         >
           Trip Types
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active-link link" : "link")}
-          m
           to="/"
         >
           Contact Us
