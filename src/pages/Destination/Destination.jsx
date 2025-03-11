@@ -1,5 +1,7 @@
 import HeroImage from "../../assets/Destination-hero.jpg";
 import featuredDestinations from "../../data/FeaturedDestinationData";
+import SearchElement from "../../components/Search/Search";
+import NewsLetter from "../../components/NewsLetter/NewsLetter";
 import FooterElement from "../../components/Footer/Footer";
 import { FaHeart } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
@@ -13,6 +15,7 @@ function DestinationPage() {
         DestinationHeroImage={HeroImage}
         Text="Travel Destination In East Africa"
       />
+      <SearchElement/>
       <div className="travel-destination">
       {featuredDestinations.map((destination, index) => (
             <FeaturedDestinationElement
@@ -27,6 +30,7 @@ function DestinationPage() {
           ))}
       </div>
       <DestinationCallToAction/>
+      <NewsLetter/>
 <FooterElement/>
     </div>
   );
@@ -67,13 +71,16 @@ function FeaturedDestinationElement({ Image, Text, Icon, Description, Price,Grou
             <div className="icon-container">{Icon}</div>
           </div>
         </div>
-        <div className="content-featured">
-          <p>{Text}</p>
+        <div className="">
+        <div className="fcontent-featured">
+          <h2>{Text}</h2>
         </div>
       </div>
       <div className="description-per-destination">
         <p>{Description}</p>
       </div>
+        </div>
+        
       <div className="price-area-element">
       <div className="price-per-destination">
         <p><FaUser/></p><p>{Price}</p>

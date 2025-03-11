@@ -26,7 +26,7 @@ function FooterContent() {
       <div className="footerHeader">
         <div className="header-col">
           <h3>Trending Locations</h3>
-          <p>
+      
             <ul>
               <li>
                 <a href="./">Mt. Kenya Hike</a>
@@ -44,13 +44,13 @@ function FooterContent() {
                 <a href="./">Lake Nakuru Famingo View</a>
               </li>
             </ul>
-          </p>
+          
         </div>
       </div>
       <div className="footerHeader">
         <div className="header-col">
           <h3>Quick Links</h3>
-          <p>
+          
             <ul>
               <li>
                 <a href="./">Home</a>
@@ -68,7 +68,7 @@ function FooterContent() {
                 <a href="./Contact">Contact Us</a>
               </li>
             </ul>
-          </p>
+        
         </div>
       </div>
       <div className="footerHeader">

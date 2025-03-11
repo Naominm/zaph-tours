@@ -112,6 +112,8 @@ textarea{
 }
 .social-media{
     display: flex;
+  align-items: center;
+  justify-content: center;
     gap: 3rem;
     margin-top: 6rem;
     margin-left: 5rem;

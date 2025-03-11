@@ -1,5 +1,14 @@
-.destination-page {
-  min-height: 100vh;
+.destinationPage {
+  display: flex;
+  gap: 2rem;
+
+}
+.travel-destination{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 5rem;
 }
 .destinationPageHeroSection {
   min-height: 10rem;
@@ -46,17 +55,10 @@
   flex-direction: row;
   padding-top: 2rem;
 }
-.fdElements{
-  width: 25%;
+.fdElements {
+  min-width: 25%;
+}
 
-}
-.travel-destination{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  margin-bottom: 5rem;
-}
 .image-wrapper-container-featured{
   border-radius: 1rem;
   overflow: hidden;
@@ -65,17 +67,24 @@
   border-radius: 1rem;
 }
 .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
   border: none;
+  border-radius: 1rem;
+  margin: 0;
+  box-shadow: 0.5px 1px 0.5px 1px rgba(0, 0, 0, 0.1);
 
 }
 
 .fdElements{
   display: flex;
+  gap: 2rem;
   margin-top: 3rem;
   padding: 0;
   border-radius: 1rem;
   padding-block: 2rem;
-  box-shadow: 0.5px 1px 0.5px 1px rgba(0, 0, 0, 0.1);
   flex-direction: column;
   align-items: center;
   transition: all .5s;
@@ -127,5 +136,17 @@ cursor: pointer;
 }
 .main-cta:hover{
   background-color: var(--color-light-beige);
-  font-weight: 800;
+  font-weight: 500;
  }
+.ftext-sec{
+  margin-top: 2rem;
+  border: 2px solid red;
+}
+.fcontent-featured{
+color: var(--color-dark-beige);
+margin-top: 2rem;
+}
+.icon-container svg{
+  font-size: 4rem;
+  border: none;
+}

@@ -1,6 +1,7 @@
 import { FaCircle } from "react-icons/fa";
 import TripTypeHeroImage from "../../assets/trip-types-hero.jpg";
 import tripTypes from "../../data/tripTypes";
+import SearchElement from "../../components/Search/Search";
 import NewsLetter from "../../components/NewsLetter/NewsLetter";
 import FooterElement from "../../components/Footer/Footer";
 
@@ -10,8 +11,9 @@ function TripTypes() {
   return (
     <div className="trip-types-page">
       <TriTypesHeroSection HeroImage={TripTypeHeroImage} HeroImageText="You are meant to travel"/>
-      
+      <SearchElement/>
       {tripTypes.map((tripType, index) => (
+        
   <DestinationElement
     key={index}
     Title={tripType.title}

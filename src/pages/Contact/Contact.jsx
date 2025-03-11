@@ -107,7 +107,7 @@ function OfficeContact({contactIcon,contactTitle, contactText,contactDetail}){
   {contactIcon}
 </div>
 <div className="contact-title">
-  <h2>{contactTitle}</h2>
+  <h3>{contactTitle}</h3>
 </div>
 <div className="contact-text">
   <p>{contactText}</p>
@@ -122,7 +122,7 @@ function OfficeContact({contactIcon,contactTitle, contactText,contactDetail}){
   return(
     <div className="social-media-elements">
       <div className="social-title">
-        <h2>{socialTitle}</h2>
+        <h3>{socialTitle}</h3>
       </div>
       <div className="social-icon">
         <a href="/">{SocialIcon}</a>

@@ -26,7 +26,7 @@ function FeaturedDestination() {
 
 function FeaturedDestinationElement({ Image, Text, Icon, Description, Price }) {
   return (
-    <div className="fdElements">
+    <div className="fdestinationElements">
       <div className="featured-destinations">
         <div className="featuredContent">
           <div className="image-wrapper-container-featured">
@@ -35,7 +35,7 @@ function FeaturedDestinationElement({ Image, Text, Icon, Description, Price }) {
             <div className="icon-container">{Icon}</div>
           </div>
         </div>
-        <div className="content-featured">
+        <div className="content-featured-featured">
           <p>{Text}</p>
         </div>
       </div>
