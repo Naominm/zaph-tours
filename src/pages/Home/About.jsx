@@ -1,4 +1,4 @@
-import AboutImage from "../../assets/about-sec.jpg";
+import AboutImage from "../../assets/about2.jpg";
 import Heading from "../../components/Header/Icon/Heading/Heading";
 import "./About.css";
 function AboutContainerElement() {
@@ -7,10 +7,7 @@ function AboutContainerElement() {
       <Heading />
       <AboutContainerItems
         Image={AboutImage}
-        TextSection="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius minima, tempore ipsam alias eligendi laborum totam, praesentium quidem molestiae esse deserunt fugit expedita natus veritatis necessitatibus fugiat ipsum velit.
-     molestiae esse deserunt fugit expedita natus veritatis necessitatibus fugiat ipsum velit
-     molestiae esse deserunt fugit expedita natus veritatis necessitatibus fugiat ipsum velit
-     molestiae esse deserunt fugit expedita natus veritatis necessitatibus fugiat ipsum velit"
+        TextSection="At Zaph Tours, we specialize in creating unforgettable travel experiences tailored to your unique preferences. Whether you're looking for an adventurous getaway, a relaxing beach vacation, or a cultural exploration, we offer a wide range of curated travel packages to suit every type of traveler. Our expert team works closely with you to craft personalized itineraries that ensure your journey is filled with lasting memories. From honeymoon escapes to wildlife safaris, we strive to provide exceptional service and unparalleled adventure, ensuring that each trip is nothing short of extraordinary. Let us help you discover the world with ease and excitement."
       />
     </div>
   );

@@ -34,8 +34,7 @@ function TestimonialHeader() {
     <div className="testimonial-section-header">
       <h2>What People Say</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-        veritatis?
+      Discover the experiences of our satisfied travelers and hear how Zaph Tours has made their journeys unforgettable.
       </p>
     </div>
   );

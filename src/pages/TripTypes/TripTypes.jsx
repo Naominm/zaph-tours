@@ -39,7 +39,7 @@ function TriTypesHeroSection({HeroImage, HeroImageText, ButtonIcon}){
    <div className="left-text-container">
    <p>{HeroImageText}</p>
     <div className="hero-content-cta">
-      <button className="trip-cta">Discover More{ButtonIcon} </button>
+      <button className="trip-cta">Discover more{ButtonIcon} </button>
     </div>
    </div>
     

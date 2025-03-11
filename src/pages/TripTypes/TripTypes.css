@@ -15,7 +15,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.7);
 }
 .hero-content-text{
     position: absolute;
@@ -37,9 +37,13 @@
     outline: none;
     border-radius: 2rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     width: 15rem;
     background-color: var(--color-dark-beige);
+  
+}
+.trip-cta:hover{
+   color: var(--color-white);
 }
 .small-image-wrapper{
     height: 25rem;

@@ -16,10 +16,7 @@ function FooterContent() {
         <div className="header-col">
           <Icon />
           <p className="column-text-sec">
-            {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            quos! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Reprehenderit, rem.
+            Zaph Tours is dedicated to providing exceptional travel experiences that go beyond the ordinary.
           </p>
         </div>
       </div>

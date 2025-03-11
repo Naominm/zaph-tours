@@ -50,12 +50,11 @@ video {
   border: none;
   font-size: 1.2rem;
   font-weight: 700;
-  background-color: var(--color-light-beige);
+  background-color: var(--color-dark-beige);
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
 .hero-cta-btn:hover{
-  background-color: var(--color-dark-beige);
-  color: var(--color-white);
+  background-color: var(--color-light-beige);
   font-weight: 800;
 }
