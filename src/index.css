@@ -6,6 +6,7 @@
   --color-white: #ffff;
   --primary-font: "Nunito", sans-serif;
   --secondary-font: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 * {

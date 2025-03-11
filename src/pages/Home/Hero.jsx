@@ -12,6 +12,7 @@ function HeroSection() {
       <div className="content">
         <h2>Best safaris and adventures</h2>
         <p>Karibu kenya</p>
+        <button className="hero-cta-btn">Book a Trip with us</button>
       </div>
     </div>
   );

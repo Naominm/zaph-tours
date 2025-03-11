@@ -6,7 +6,7 @@ import Icon from "./Icon/Icon";
 import "./Header.css";
 function Header() {
   return (
-    <div className="header-container-parent">
+    <div className="header-container-parent" id="header">
       <div className="header-contacts">
         <HeaderContact Icon={<FaLocationDot />} text="kenya" />
         <HeaderContact Icon={<IoMail />} text="zarph-tours@outlook.com" />

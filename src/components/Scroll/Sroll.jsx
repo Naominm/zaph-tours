@@ -4,11 +4,9 @@ import "./Scroll.css";
 function ScrollToTop({}) {
   return (
     <div className="scroll-to-top">
-      <FaArrowUpLong />
+      <a href="#header"><FaArrowUpLong /></a>
     </div>
   );
 }
-//  function Scroll(){
-//   onclick()
-//  }
+
 export default ScrollToTop;

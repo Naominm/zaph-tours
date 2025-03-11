@@ -1,5 +1,6 @@
 .header-container-parent {
   width: 100%;
+ 
 }
 .header-contact-container {
   display: flex;
@@ -17,11 +18,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  background-color: var(--color-light-beige);
+ 
   /* color: var(--color-white);
   background-color: var(--color-dark-brown); */
 }
 .header-contacts svg {
-  color: var(--color-light-beige);
+  font-size: 2rem;
+  color: var(--color-dark-beige);
 }
 .header-nav-elements a {
   font-family: inherit;
@@ -40,7 +44,8 @@
   justify-content: space-between;
   padding-inline: 2rem;
   flex-wrap: wrap;
-  box-shadow: 3px 3px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);
+  padding-top: 1.5rem;
   /* background-color: aqua;
 } */
 }
@@ -66,7 +71,7 @@
   border: none;
   width: 12rem;
   border-radius: 10rem;
-  background-color: var(--color-dark-beige);
+  background-color: var(--color-light-beige);
 }
 .hamburger-menu-container {
   display: none;
