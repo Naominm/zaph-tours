@@ -56,16 +56,16 @@ function FooterContent() {
                 <a href="./">Home</a>
               </li>
               <li>
-                <a href="./">About</a>
+                <a href="#About">About</a>
               </li>
               <li>
-                <a href="./">Destination</a>
+                <a href="./Destination">Destination</a>
               </li>
               <li>
-                <a href="./">Trip types</a>
+                <a href="./TripTypes">Trip types</a>
               </li>
               <li>
-                <a href="./">Contact Us</a>
+                <a href="./Contact">Contact Us</a>
               </li>
             </ul>
           </p>

@@ -8,4 +8,7 @@ function ScrollToTop({}) {
     </div>
   );
 }
+//  function Scroll(){
+//   onclick()
+//  }
 export default ScrollToTop;

@@ -55,6 +55,7 @@
 .navigation-links {
   display: flex;
   gap: 5rem;
+  cursor: pointer;
 }
 .header-contact-container p {
   font-size: 1.2rem;

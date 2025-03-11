@@ -3,7 +3,7 @@ import Heading from "../../components/Header/Icon/Heading/Heading";
 import "./About.css";
 function AboutContainerElement() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="About">
       <Heading />
       <AboutContainerItems
         Image={AboutImage}
