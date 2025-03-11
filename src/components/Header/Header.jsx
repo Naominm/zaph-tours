@@ -67,9 +67,9 @@ function HeaderNavigation() {
 
 function HeaderCTA() {
   return (
-    <div className="button-container-element">
-      <button>Book a Trip</button>
-    </div>
+    
+      <button className="button-container-element">Book a Trip</button>
+  
   );
 }
 function HamburgerMenu({ HamburgerMenuIcon }) {

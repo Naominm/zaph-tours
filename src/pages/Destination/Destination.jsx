@@ -58,6 +58,7 @@ function DestinationPageHeroElement({ DestinationHeroImage, Text }) {
 function FeaturedDestinationElement({ Image, Text, Icon, Description, Price,GroupPrice }) {
   return (
     <div className="fdElements">
+      <div className="container">
       <div className="featured-destinations">
         <div className="featuredContent">
           <div className="image-wrapper-container-featured">
@@ -81,8 +82,8 @@ function FeaturedDestinationElement({ Image, Text, Icon, Description, Price,Grou
 <FaUserFriends/><p>{GroupPrice}</p>
       </div>
       </div>
-      <button className="destination-cta">view detail</button>
-      
+      <button className="destination-cta">Book Destination</button>
+      </div>
     </div>
   );
 }

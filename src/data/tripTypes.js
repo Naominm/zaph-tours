@@ -21,12 +21,7 @@ import EcoTour3 from "../assets/EcoTour3.jpg";
 
 
 const tripTypes = [
-    {
-      title: "Honeymoon",
-      images: [Honeymoon1, Honeymoon2, Honeymoon3],
-      description: "Romantic getaways to stunning destinations with luxury accommodations.",
-      pricing: { startingFrom: 2000, groupDiscount: "10% off for 4+ people" }
-    },
+   
     {
       title: "Family",
       images: [Family1, Family2, Family3],
@@ -45,11 +40,18 @@ const tripTypes = [
       description: "Immersive experiences exploring Kenya's rich heritage and traditions.",
       pricing: { startingFrom: 1200, groupDiscount: "Free tour guide for groups of 6+" }
     },
+    
     {
       title: "Eco-Tours",
       images: [EcoTour1, EcoTour2, EcoTour3],
       description: "Sustainable travel experiences with a focus on nature and conservation.",
       pricing: { startingFrom: 1500, groupDiscount: "Free tour guide for groups of 6+" }
+    },
+    {
+      title: "Honeymoon",
+      images: [Honeymoon1, Honeymoon2, Honeymoon3],
+      description: "Romantic getaways to stunning destinations with luxury accommodations.",
+      pricing: { startingFrom: 2000, groupDiscount: "10% off for 4+ people" }
     }
 
 ];

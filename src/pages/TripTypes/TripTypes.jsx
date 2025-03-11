@@ -65,7 +65,6 @@ function DestinationElement({Title, ImageGallery, Description,Pricing}){
    
     {ImageGallery.map((image, index) => (
             <img key={index} src={image}
-             alt={`Gallery image ${index + 1}`} 
              className="travel-type-image"/>
           ))}
      

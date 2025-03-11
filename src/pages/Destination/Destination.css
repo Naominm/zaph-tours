@@ -38,6 +38,7 @@
 .price-area-element{
   display: flex;
   gap: 2rem;
+  color: var(--color-dark-beige);
 }
 .price-per-destination{
   display: flex;
@@ -63,6 +64,11 @@
 .image-wrapper-container-featured img{
   border-radius: 1rem;
 }
+.container{
+  border: none;
+
+}
+
 .fdElements{
   display: flex;
   margin-top: 3rem;
@@ -72,21 +78,29 @@
   box-shadow: 0.5px 1px 0.5px 1px rgba(0, 0, 0, 0.1);
   flex-direction: column;
   align-items: center;
+  transition: all .5s;
  
 }
+.fdElements:hover{
+  transform: translateY(-2rem);
+ }
+
 .destination-cta{
-  padding: 1rem;
+  padding-block: 1.5rem;
+  padding-inline: 1rem;
   border: none ;
   border-radius: 1rem;
   margin-top: 1.5rem;
   font-size: 1.2rem;
   font-weight: 500;
-background-color: var(--color-dark-beige);
+  width: 10rem;
+background-color: var(--color-light-beige);
 color: var(--color-dark-black);
 }
-.destination-cta :hover{
-  background-color: var( --color-light-beige);
-  
+
+.destination-cta:hover{
+  background-color: var(--color-dark-beige)!important;
+  color: var(--color-white);
 }
 .description-per-destination{
   margin-top: 1rem;
@@ -100,7 +114,9 @@ color: var(--color-dark-black);
   display: flex;
   justify-content: center;
   margin-bottom: 10rem;
+  margin-top: 8rem;
 }
+
 .main-cta{
   padding: 2rem;
   border: none;
@@ -108,7 +124,8 @@ color: var(--color-dark-black);
   background-color: var(--color-dark-beige);
 color: var(--color-dark-black);
 cursor: pointer;
-transition: all 0.3s ease
 }
-.main-cta:hover {
-  background-color: #d2b48c; }
+.main-cta:hover{
+  background-color: var(--color-light-beige);
+  font-weight: 800;
+ }
