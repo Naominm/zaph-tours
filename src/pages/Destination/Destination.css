@@ -23,15 +23,92 @@
 .DestinationContent {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 25%;
   text-transform: uppercase;
   font-size: 3rem;
   font-weight: 700;
   color: var(--color-white);
 }
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 50em) {
   .DestinationContent {
     font-size: 1.5rem;
     left: 15%;
   }
 }
+.price-area-element{
+  display: flex;
+  gap: 2rem;
+}
+.price-per-destination{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.fdElements{
+  width: 25%;
+
+}
+.travel-destination{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.image-wrapper-container-featured{
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.image-wrapper-container-featured img{
+  border-radius: 1rem;
+}
+.fdElements{
+  display: flex;
+  margin-top: 3rem;
+  padding: 0;
+  border-radius: 1rem;
+  padding-block: 2rem;
+  box-shadow: 0.5px 1px 0.5px 1px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.destination-cta{
+  padding: 1rem;
+  border: none ;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+background-color: var(--color-dark-beige);
+color: var(--color-dark-black);
+}
+.destination-cta :hover{
+  background-color: var( --color-light-beige);
+  
+}
+.description-per-destination{
+  margin-top: 1rem;
+}
+.Destination-sec{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.DstCall-toAction{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+.main-cta{
+  padding: 2rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: var(--color-dark-beige);
+color: var(--color-dark-black);
+cursor: pointer;
+transition: all 0.3s ease
+}
+.main-cta:hover {
+  background-color: #d2b48c; }
