@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import DestinationPage from "./pages/Destination/Destination";
 import TripTypes from "./pages/TripTypes/TripTypes";
 import ContactPage from "./pages/Contact/Contact";
+import ScrollToTop from "./components/Scroll/Sroll";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route path="/TripTypes" element={<TripTypes />} />
         <Route path="/Contact" element={<ContactPage />} />
       </Routes>
+      <ScrollToTop/>
     </>
   );
 }
