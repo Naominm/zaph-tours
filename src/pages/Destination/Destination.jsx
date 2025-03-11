@@ -86,4 +86,5 @@ function FeaturedDestinationElement({ Image, Text, Icon, Description, Price,Grou
     </div>
   );
 }
+
 export default DestinationPage;

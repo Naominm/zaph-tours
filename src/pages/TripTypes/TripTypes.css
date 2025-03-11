@@ -1,0 +1,119 @@
+
+.heroImageWrapper{
+    position: relative;
+    height: 60vh;
+    width: 100%;
+}
+.heroImageWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+}
+.hero-content-text{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white );
+    padding-inline: 5rem;
+}
+.hero-content-text p{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.trip-cta{
+    padding: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 15rem;
+    background-color: var(--color-dark-beige);
+}
+.small-image-wrapper{
+    height: 25rem;
+    width: 25rem;
+}
+.small-image-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 3rem;
+}
+.left-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ 
+}
+.travel-destination-Packages{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.travel-type-title{
+    text-align: center;
+  padding-block: 1rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+
+}
+.travel-type-image{
+    height: 20rem;
+    width: 30rem;
+  border-radius: 2rem;
+  
+
+}
+
+.travel-type-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.travel-type-image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+   
+}
+.circle-active-nav {
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+margin-top: 3rem;
+color: var(--color-dark-beige);
+}
+.travel-type-description,.travel-type-pricing{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.travel-type-pricing{
+    color: orange;
+}
+.button-cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.destination-cta{
+    width: 20rem;
+}
