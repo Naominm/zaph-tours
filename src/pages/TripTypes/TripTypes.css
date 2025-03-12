@@ -31,6 +31,26 @@
     font-size: 5rem;
     font-weight: 700;
 }
+@media screen and (max-width:50em){
+    .hero-content-text{
+       
+        padding-inline: 0rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .hero-content-text p{
+    
+        font-size: 4.5rem;
+    }
+    
+}
+@media screen and (max-width:50em){
+    .hero-content-text p{
+      
+        font-size: 3rem;
+    } 
+ }
 .trip-cta{
     padding: 1.5rem;
     border: none;
@@ -45,6 +65,16 @@
 .trip-cta:hover{
    color: var(--color-white);
 }
+@media screen and (max-width:50em){
+   .trip-cta{
+    margin-left: 15rem;
+   } 
+}
+@media screen and (max-width:50em){
+    .trip-cta{
+        margin-left: 10rem;
+       } 
+ }
 .small-image-wrapper{
     height: 25rem;
     width: 25rem;
