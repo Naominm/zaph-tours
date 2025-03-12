@@ -9,6 +9,13 @@ video {
   height: 100%;
   object-fit: cover;
 }
+@media screen and (max-width:50em) {
+  .main-content-container{
+    margin-inline: 1rem;
+    height: 70vh;
+
+  }
+}
 .content {
   position: absolute;
   top: 8rem;
@@ -23,10 +30,24 @@ video {
   justify-content: center;
   gap: 1rem;
 }
+@media screen and (max-width:50em) {
+  .content{
+    top: 4rem;
+  }
+}
 .content h2 {
   font-weight: 1000;
   font-size: 5rem;
 }
+@media screen and (max-width:50em) {
+  .content h2{
+   font-size: 4rem;
+   padding-left: 4rem;
+
+
+  }
+}
+
 
 .content p {
   font-size: 3rem;
