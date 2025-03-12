@@ -138,6 +138,11 @@ textarea{
         width: 30rem;
     }
 }
+@media screen and (max-width:25em) {
+    .submit-btn{
+        width: 20rem;
+    }
+}
 
 
 .bottom-contact-elements{
@@ -164,6 +169,11 @@ textarea{
 }
 .form-subtitle{
     margin-top: 1rem;
+}
+@media screen and (max-width:25em) {
+    .form-subtitle{
+        font-size: 1rem;
+    }
 }
 .contact-icon svg, .social-media svg{
     background-color: var(--color-light-beige);
