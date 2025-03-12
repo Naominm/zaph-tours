@@ -141,6 +141,11 @@ color: var(--color-dark-beige);
     margin-top: 2rem;
     font-weight: 500;
 }
+@media screen and (max-width:25em) {
+   .travel-type-description{
+    font-size: 1rem;
+   } 
+}
 .travel-type-pricing{
     color: orange;
 }
