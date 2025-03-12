@@ -17,3 +17,9 @@
   font-family: inherit;
   color: inherit;
 }
+@media screen and (max-width:27.5em) {
+  .scroll-to-top{
+    display: none;
+  }
+  
+}

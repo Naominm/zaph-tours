@@ -1,5 +1,7 @@
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCall, IoMail } from "react-icons/io5";
+import { Link } from "react-router-dom";
+
 import Icon from "../Header/Icon/Icon";
 import "./Footer.css";
 function FooterElement() {
@@ -50,19 +52,19 @@ function FooterContent() {
           
             <ul>
               <li>
-                <a href="./">Home</a>
+                <link to="./">Home</link>
               </li>
               <li>
-                <a href="#About">About</a>
+                <link to="#About">About</link>
               </li>
               <li>
-                <a href="./Destination">Destination</a>
+                <link to="./Destination">Destination</link>
               </li>
               <li>
-                <a href="./TripTypes">Trip types</a>
+                <link to="./TripTypes">Trip types</link>
               </li>
               <li>
-                <a href="./Contact">Contact Us</a>
+                <link to="./Contact">Contact Us</link>
               </li>
             </ul>
         
