@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Destination" element={<DestinationPage />} />
-        <Route path="/TripTypes" element={<TripTypes />} />
-        <Route path="/Contact" element={<ContactPage />} />
+        <Route path="/destination" element={<DestinationPage />} />
+        <Route path="/triptypes" element={<TripTypes />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <ScrollToTop/>
     </>

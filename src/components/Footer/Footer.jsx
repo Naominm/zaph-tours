@@ -50,23 +50,25 @@ function FooterContent() {
         <div className="header-col">
           <h3>Quick Links</h3>
           
-            <ul>
-              <li>
-                <link to="./">Home</link>
-              </li>
-              <li>
-                <link to="#About">About</link>
-              </li>
-              <li>
-                <link to="./Destination">Destination</link>
-              </li>
-              <li>
-                <link to="./TripTypes">Trip types</link>
-              </li>
-              <li>
-                <link to="./Contact">Contact Us</link>
-              </li>
-            </ul>
+          <ul>
+  <li>
+    <Link to="/">Home</Link>
+  </li>
+  <li>
+    <a href="#About">About</a> 
+    
+  </li>
+  <li>
+    <Link to="/destination">Destination</Link>
+  </li>
+  <li>
+    <Link to="/triptypes">Trip Types</Link>
+  </li>
+  <li>
+    <Link to="/contact">Contact Us</Link>
+  </li>
+</ul>
+
         
         </div>
       </div>
