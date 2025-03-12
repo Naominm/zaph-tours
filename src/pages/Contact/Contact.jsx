@@ -35,7 +35,7 @@ return(
          <label htmlFor="firstName">FirstName</label>
          </div>
     
-          <input type="text" name="firstName" placeholder="Enter your first name" required />
+          <input type="text" className="name-input-input" name="firstName" placeholder="Enter your first name" required />
          
           </div>
           <div className="form-block-elements">
@@ -43,7 +43,7 @@ return(
                  <label htmlFor="LastName">Last Name</label>
                  </div>
    
-          <input type="text"  placeholder=" Enter Your LastName"/>
+          <input type="text" className="name-input-input"  placeholder=" Enter Your LastName"/>
           </div>
         
       
